@@ -64,7 +64,7 @@ h1 {
 
 .firstH1 {
     width: 10px;
-    font-family: 'Nosifer', sans-serif
+    font-family: 'Nosifer', sans-serif;
 }
 
 p {
@@ -77,60 +77,73 @@ p {
 
 #secondMain {
     display: flex;
-    /* justify-content: center; */
     background-color: red;
-    width: 50%;
+    width: 30%;
     flex-direction: column;
     align-items: center;
+    border-radius: 66px;
+    height: 692px;
+    margin-left: 114px;
+    margin-top: 37px;
 }
 
-h2{
+#secondDiv {
+    display: flex;
+}
+
+h2 {
     text-align: center;
-    font-size: 53px;
+    font-size: 35px;
     color: #ffffff;
-    text-decoration: 11px underline #000000;
     margin-top: 39px;
+    margin-left: 18px;
+}
+
+#meuId {
+    text-align: center;
+    font-size: 79px;
+    color: #ffffff;
+    margin-top: 46px;
     margin-bottom: 42px;
+    margin-left: 58px;
 }
 
-h3 {
-    
+h3 {}
+
+.firstDiv img {
+    width: 275px;
 }
 
-#secondMain  div img.myImg{
+#secondMain div img.myImg {
     position: absolute;
     opacity: 0;
 }
 
-#secondMain  div img.image {
+#secondMain div img.image {
     opacity: 1;
 }
 
-#secondMain  div h3.image-text {
+
+#secondMain div h3.image-text {
     position: absolute;
     opacity: 0;
 }
 
-#secondMain  div h3.text {
+#secondMain div h3.text {
     opacity: 1;
 }
 
 
 
 .firstDiv {
-    background-color: white;
-    width: 362px;
-    height: 500px;
+    width: 294px;
+    height: 387px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 40px;
     border: none;
-}
-
-#image {
-    width: 340px;
 }
 
 .image-text {
