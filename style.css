@@ -90,13 +90,13 @@ p {
 #secondMain {
     display: flex;
     background-color: red;
-    width: 30%;
+    width: 431px;
     flex-direction: column;
     align-items: center;
     border-radius: 66px;
-    height: 692px;
-    margin-left: 114px;
-    margin-top: 37px;
+    height: 625px;
+    margin-left: 170px;
+    margin-top: 95px;
 }
 
 #secondDiv {
@@ -120,7 +120,9 @@ h2 {
     margin-left: 58px;
 }
 
-h3 {}
+h3 {
+    margin-top: 20px;
+}
 
 .firstDiv img {
     width: 275px;
@@ -156,6 +158,7 @@ h3 {}
     flex-direction: column;
     border-radius: 40px;
     border: none;
+    background-color: white;
 }
 
 .image-text {
