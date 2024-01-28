@@ -51,9 +51,21 @@ input::placeholder {
     color: purple;
 }
 
+#mySectionLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mySectionTexts{
+    display: block;
+    margin-top: 59px;
+}
+
 #logo {
-    width: 196px;
-    margin: 50px 0 38px 74px;
+    width: 276px;
+    height: 219px;
+    margin-left: 101px;
 }
 
 h1 {
